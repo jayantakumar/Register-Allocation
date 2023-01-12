@@ -35,11 +35,17 @@ number of registers that can be used inside any given function. Your job is to r
 of liveness analysis which you must use to create an interference graph and color it using the specified
 number of registers allowed for that program. You are provided with the following files as a part of this
 assignment:
+
 assn/friendTJ.jj : The source grammar.
+
 validator/friendTJMem.jj : The target grammar.
+
 assn/* : Java project using friendTJ.jj that provides an API for liveness information.
+
 validator/* : Java project using friendTJMem.jj that validates the obtained output.
+
 testcase/* : Public test case input
+
 testcase-output/* : Public test case output
 
 ## Liveness API
